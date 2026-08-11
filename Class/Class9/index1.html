@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index 1</title>
+</head>
+
+<body>
+    
+   <h1 id="Demo">THE DOCUMENT OBJECT</h1> 
+   <h2> The getElementbyID method</h2>
+   <script src="index1.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>getElementById Example</title>
+</head>
+<body>
+
+<h1 id="demo">Hello World</h1>
+
+<input type="text" id="name">
+
+<button id="btn">Click Me</button>
+
+<script>
+
+let heading = document.getElementById("demo");
+
+heading.innerHTML = "Welcome";
+heading.style.color = "blue";
+
+document.getElementById("btn").addEventListener("click", function() {
+
+    let user = document.getElementById("name").value;
+
+    alert("Hello " + user);
+
+});
+
+</script>
+
+</body>
+</html>

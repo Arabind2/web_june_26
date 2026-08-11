@@ -1,0 +1,44 @@
+let name="Arabind";
+let a=101;
+let bb=false;
+let b;
+let home=null;
+let big1=3234324235423324n;
+console.log(name);
+console.log(typeof name)
+console.log(a);
+console.log(typeof a);
+console.log(bb);
+console.log(typeof bb);
+console.log(b);
+console.log(typeof b);
+console.log(home);
+console.log(typeof home);
+console.log(big1);
+console.log(typeof big1);
+
+const name2="Anirudh";
+const x=102;
+const bb2=true;
+const y=98;
+const home2=null;
+const big2=3234324235423324n;
+console.log(name2);
+console.log(x);
+console.log(bb2);
+console.log(y);
+console.log(home2);
+console.log(big2);
+
+var name3="Arabind";
+var p=103;
+var bb3=false;
+var q;
+var home3=null;
+var big4=3234324235423324n;
+console.log(name3);
+console.log(p);
+console.log(bb3);
+console.log(q);
+console.log(home3);
+console.log(big4);

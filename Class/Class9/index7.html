@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <div id="box">
+        <h2>Hello</h2>
+    </div>
+
+    <script>
+
+        // Create element
+        let btn = document.createElement("button");
+
+        // Add text
+        btn.innerText = "Click Me";
+
+        // Insert into div
+        let box = document.getElementById("box");
+
+        box.appendChild(btn);
+
+        // Remove after 3 seconds
+        setTimeout(() => {
+            btn.remove();
+        }, 3000);
+
+    </script>
+
+</body>
+</html>

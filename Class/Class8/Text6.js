@@ -1,0 +1,1 @@
+console.log([2,4,8].every((el)=>el%2==0));
