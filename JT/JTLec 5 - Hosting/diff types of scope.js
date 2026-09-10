@@ -5,18 +5,28 @@
 // console.log(y);
 
 //-------->Local Scope<--------
-function go() {
-    console.log("I have to go .");
+// function go() {
+//     console.log("I have to go .");
     
-    var k=18;
-    return k;
-    let r=45;
-    console.log(k, r);
+//     var k=18;
+//     return k;
+//     let r=45;
+//     console.log(k, r);
     
-}
+// }
 
-let s=go();
-console.log(s);
+// let s=go();
+// console.log(s);
+
+//==========
+// function test() {
+
+//     if (true) {
+//         var x = 10;
+//     }
+
+//     console.log(x); // 10 ✅
+// }
 
 //-------->Block Scope<---------
 // {
@@ -52,3 +62,19 @@ console.log(s);
        
 // }
 // fun1();
+
+//=============
+
+let x = 100;
+
+function test() {
+    console.log(x);
+}
+
+function demo() {
+    let x = 200;
+    test();
+}
+
+demo();
+//========================

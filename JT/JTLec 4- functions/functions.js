@@ -1,32 +1,36 @@
 //1. function declaration
+//========================
 // function <fun_name>(list of params){}
-function myFun(){
-    console.log("Good morning");
-}
+//=============
+// function myFun(){
+//     console.log("Good morning");
+// }
 // myFun();
 
-function greet(name='JT'){
-    console.log("Good Morning",name,'!!!');
+//============
+// function greet(name){
+//     console.log("Good Morning",name,'!!!');
     
-}
+// }
 // greet("Arabind");
 // greet(2);
 // greet();
-//greet(true);
+// greet(true);
 // greet();
-//greet("Arabind",10);
+// greet("Arabind",10);
 
-function addJTTag(name){
-    return "JT'ans  "+name
-}
-let updateName=addJTTag("Arabind")
-console.log(updateName);
+// function addJTTag(name){
+//     return "JT'ans  "+name
+// }
+// let updateName=addJTTag("Arabind")
+// console.log(updateName);
 
 
-function add(a,b){
-    return a+b;
-}
+// function add(a,b){
+//     return a+b;
+// }
 
-let sum=add(10,20)
-console.log(sum);
+// let sum=add(10,20)
+// console.log(sum);
+//================
 

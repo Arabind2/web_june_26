@@ -1,4 +1,4 @@
-// let numbers=[10,20,30,40,50]
+let numbers=[10,20,30,40,50]
 
 // for (let i = 0; i < numbers.length; i++) 
 //     console.log(numbers[i]);
@@ -188,11 +188,11 @@
 
 //Ex.1
 
-const product=[
-    {id:1, name : "laptop", price: 50000},
-     {id:2, name : "Mobile", price: 20000},
-      {id:3, name : "Tablet", price: 30000}
-];
+// const product=[
+//     {id:1, name : "laptop", price: 50000},
+//      {id:2, name : "Mobile", price: 20000},
+//       {id:3, name : "Tablet", price: 30000}
+// ];
 
 // const pro=product.find(product=> product.id==2);
 // console.log(pro);
@@ -268,26 +268,39 @@ const product=[
 
 
 //========================
-const users=[
-    {
-        id:1,
-        name:"Sarthak",
-        age:20
-    },
-     {
-        id:2,
-        name:"Amit",
-        age:26
-    },
-     {
-        id:3,
-        name:"Nikhil",
-        age:28
-    }
-]
-//find the average age of users
 
-let avgAge=users.reduce((prev,cur)=>{
-    return prev+cur.age;
-},0)
-console.log("///// average students", avgAge/users.length);
+// const users=[
+//     {
+//         id:1,
+//         name:"Sarthak",
+//         age:20
+//     },
+//      {
+//         id:2,
+//         name:"Amit",
+//         age:26
+//     },
+//      {
+//         id:3,
+//         name:"Nikhil",
+//         age:28
+//     }
+// ]
+// //find the average age of users
+
+// let avgAge=users.reduce((prev,cur)=>{
+//     return prev+cur.age;
+// },0)
+// console.log("///// average students", avgAge/users.length);
+
+
+//---------->from()--------->
+// const str = 'hello';
+// const arr = Array.from(str);
+// console.log(arr);
+
+//------------->of()---------->
+// console.log(Array.of(1, 2, 3)); // [1, 2, 3]
+// console.log(Array.of('a', 'b', 'c')); // ['a', 'b', 'c']
+// console.log(Array.of(1)); // [1]
+// console.log(Array.of());

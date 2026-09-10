@@ -1,4 +1,3 @@
-numbers.forEach( (value,idx,arr)=>{
-    console.log("Value is ", value ," at index ", idx , " of array " , arr);
-    
-})
+const str = 'hello';
+const arr = Array.from(str);
+console.log(arr);

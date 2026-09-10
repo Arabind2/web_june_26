@@ -54,3 +54,11 @@
 // const result=students.filter(student=> student.marks>=50);
 // let newStudents=result.map((value)=> console.log("value is", value, "result :  Pass" ));
 // console.log(newStudents);
+
+//-------------------------------
+//=================================================================
+
+
+
+//-------------------------------------------------------
+

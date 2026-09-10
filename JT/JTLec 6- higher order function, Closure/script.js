@@ -5,7 +5,7 @@
 // fun(10)
 // fun(true);
 // fun("JT")
-
+//============
 // function hello() {
 //    console.log("Hello Everyone!!!");
 //     return 100;
@@ -14,6 +14,44 @@
 // fun(hello)
 
 
+//------>Higher order function--------->
+// outer() → takes no argument ✅
+// outer() → returns a function ✅
+// Therefore, outer() is a Higher-Order Function ✅
+//-----------------
+// function multiplyBy(x) {
+//     return function(y) {
+//         return x * y;
+//     };
+// }
+
+// const double = multiplyBy(2);
+// console.log(double(5));
+
+//=====================
+// function outer() {
+//     return function inner() {
+//         console.log("Hello");
+//     };
+// }
+
+//--------callback function----->
+// Callback Function:
+// A function that is passed to another function as an argument and then called by it.
+//-----------------
+// function test(callback) {
+//     callback();
+// }
+
+// function demo() {
+//     console.log("Hi");
+// }
+
+// test(demo);
+//===================
+// test = Higher-Order Function
+// demo = Callback Function
+//======================
 //===============================
 // function f3(){
 //     console.log("It is f3 function");
@@ -33,6 +71,10 @@
 
 // let y=go();
 // console.log(y);
+
+
+
+
 
 
 //=========== setTimeout, setInterval================

@@ -17,7 +17,9 @@
 
 
     <h2>Block Scope</h2>
-    <p>- On the otherhand the variables which are declared within any block have <b>local scope.</b></p>
+    <p>-Block scope means a variable can be accessed only inside the block { } where it is declared.<br>
+
+In JavaScript, let and const are block-scoped..<br>Important: var is NOT block-scoped</p>
     
     <h2>Lexical Scope</h2>
     <p>- When we write a function inside another function, it can access & use the variables of it's outer function</p>
@@ -25,5 +27,13 @@
     <h3>Scope Chaining</h3>
     <p>- When a variable is accessed within a function, Javascript looks for that variable in the current function
         scope, then it's parent function scope, and so on upto the global scope. This forms <b>Scope Chaining</b></p>
-</body>
+
+<p>
+    <b>Scope Chain vs Scope</b><br>
+
+<b>Scope</b> → determines where a variable is accessible.
+<br>
+<b>Scope chain</b> → determines where JavaScript searches for that variable.
+</p>
+    </body>
 </html>

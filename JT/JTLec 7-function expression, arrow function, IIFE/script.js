@@ -1,3 +1,5 @@
+//----->function expression-------->
+//================================
 // const hello=function greet() {
 //     console.log("It is greet method. ");
 // }
@@ -23,17 +25,14 @@
 
 
 
-
-
-
 //=============Arrow Function=================
 // const add=(num1, num2)=>{
 //     console.log("Adding num1, num2");
     
 //     return num1+num2;
 // }
-
-// or
+// console.log(add(10,20))
+// // or
 // const add=(num1, num2)=>num1+num2;
 // const result=add(10, 20);
 // console.log("The result is: "+result);
@@ -50,8 +49,9 @@
 // })("John");
 
 
-var a = 10;
-(function() {
-  console.log(a);
-  var a = 20;
-})();
+// var a = 10;
+// (function() {
+//   console.log(a);
+//   var a = 20;
+//   console.log(a);
+// })();

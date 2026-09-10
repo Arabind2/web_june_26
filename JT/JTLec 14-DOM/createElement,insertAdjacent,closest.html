@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        .highlight{
+            background-color: yellow;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p id="first-paragraph">This is the first paragraph</p>
+    </div>
+
+    <script>
+        // Diference between apend and appendChild ?---------------------->
+
+        const container=document.querySelector(".container")
+
+        //append----->
+// const newParagraph = document.createElement("p");
+// newParagraph.textContent = "This is example of append";
+
+// container.append(newParagraph);
+// container.append("Hello"); // ✅
+
+//appendChild---------->
+//         const newParagraph = document.createElement("p");
+// newParagraph.textContent = "Added using appendChild";
+
+// container.appendChild(newParagraph);
+
+//container.appendChild("Hello"); // ❌ Error
+
+//prepend----------------->
+
+// const newParagraph = document.createElement("p");
+// newParagraph.textContent = "This is added at beginning";
+
+// container.prepend(newParagraph);
+// container.prepend("Hello");
+
+        //-------->create Element-------->
+        //  const newParagraph=document.createElement("p")
+        //  container.append(newParagraph)
+        //  newParagraph.textContent="This is dynamically created paragraph"
+        //   newParagraph.id="new-paragraph"
+
+        //    const newParagraph2=document.createElement("p")
+        //  container.append(newParagraph2)
+        //  newParagraph2.textContent="This is dynamically created paragraph2"
+        //   newParagraph2.id="new-paragraph2"
+
+        //  newParagraph.className="new-paragraph"
+        //   newParagraph.className="new-paragraph1"
+       // newParagraph.style.backgroundColor="green"  //inline css is  not recommended, but classList is recomended
+
+        // newParagraph.classList.add("new-paragraph")
+        // newParagraph.classList.add("new-paragraph1")
+        //  newParagraph.classList.add("highlight")
+
+         //insertAdjacentHTML------------>
+
+        //  container.insertAdjacentHTML("beforeend","<p id='htmlParagraph'> inserted before end</p>")
+        //    container.insertAdjacentHTML("afterend","<p id='htmlParagraph'> inserted after end</p>")
+
+            //insertAdjacentHTML-------->
+        //    const newSpan=document.createElement("span")
+        //   newSpan.textContent="Inserted element before begin"
+        //   container.insertAdjacentElement("beforebegin",newSpan)
+
+        //   const anotherNewSpan=document.createElement("span")
+        //    anotherNewSpan.textContent="Inserted element after dynamically created p";
+        //    container.insertAdjacentElement("afterend", anotherNewSpan)
+
+       // insertAdjacentText--------------->
+        container.insertAdjacentText(
+    "beforebegin",
+    "Text inserted before container"
+);
+
+    </script>
+</body>
+</html>
+
+
+<!-- 
+Method	        Position	Text allowed?	    Multiple items?
+append()	    End             	✅ Yes     	✅ Yes
+appendChild()	End	             ❌ No	        ❌ No, one Node
+prepend()      	Beginning	        ✅ Yes	    ✅ Yes -->
+
